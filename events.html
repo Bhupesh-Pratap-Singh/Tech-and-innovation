@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | Tech & Innovation</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Custom styles for the Events page */
+        body {
+            background-color: #f4f6f9;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .events-section {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 1em;
+        }
+
+        .event-item {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2em;
+            margin-bottom: 2em;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .event-image {
+            width: 40%;
+            margin-right: 2em;
+        }
+
+        .event-image img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .event-details {
+            width: 55%;
+        }
+
+        .event-title {
+            font-size: 1.8em;
+            margin-bottom: 1em;
+            color: #333;
+        }
+
+        .event-description {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 1em;
+        }
+
+        .event-date {
+            font-weight: bold;
+            color: #00796b;
+            margin-bottom: 1em;
+        }
+
+        .event-link {
+            color: #00796b;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .event-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            font-style: italic;
+        }
+
+        .event-item:hover {
+            background-color: #f7f7f7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tech & Innovation</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="tech-trends.html">Tech Trends</a></li>
+                <li><a href="innovations.html">Innovations</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="startups.html">Startups</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="events-section">
+            <h2>Upcoming Tech Events</h2>
+
+            <div class="event-item">
+                <div class="event-image">
+                    <img src="./images/tech-conference.jpg" alt="Tech Conference 2024">
+                </div>
+                <div class="event-details">
+                    <h3 class="event-title">Tech Conference 2024</h3>
+                    <p class="event-description">
+                        Join us for the largest tech conference of the year! Featuring speakers from top tech companies, hands-on workshops, and cutting-edge product demos. 
+                        Explore the future of AI, robotics, and digital transformation. Network with industry leaders and innovators.
+                    </p>
+                    <p class="event-date">Date: March 15, 2024</p>
+                    <a href="https://www.techconference2024.com" class="event-link" target="_blank">Learn More</a>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <div class="event-image">
+                    <img src="./images/ai summit.jpg" alt="AI Innovators Summit">
+                </div>
+                <div class="event-details">
+                    <h3 class="event-title">AI Innovators Summit</h3>
+                    <p class="event-description">
+                        The AI Innovators Summit brings together the brightest minds in artificial intelligence to share their groundbreaking research and insights. 
+                        Explore advancements in AI algorithms, deep learning, and automation that are shaping the future of industries across the globe.
+                    </p>
+                    <p class="event-date">Date: April 10, 2024</p>
+                    <a href="https://www.aiinnovatorsummit.com" class="event-link" target="_blank">Learn More</a>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <div class="event-details">
+                    <h3 class="event-title">Blockchain for Business Forum</h3>
+                    <p class="event-description">
+                        Dive into the world of blockchain and its transformative power for businesses. From supply chain innovations to decentralized finance, 
+                        learn how blockchain technology is reshaping the way we conduct business, and discover real-world applications across various industries.
+                    </p>
+                    <p class="event-date">Date: May 25, 2024</p>
+                    <a href="https://www.blockchainforbusinessforum.com" class="event-link" target="_blank">Learn More</a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tech & Innovation. All Rights Reserved. Designed with passion.</p>
+    </footer>
+</body>
+</html>

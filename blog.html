@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Tech & Innovation</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Custom styles for the Blog page */
+        body {
+            background-color: #f9fafb;
+        }
+
+        header {
+            background-color: #3b5998; /* Slightly different header color */
+        }
+
+        .blog-list {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2em 1em;
+        }
+
+        .blog-item {
+            display: flex;
+            flex-direction: row;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 2em;
+        }
+
+        .blog-item img {
+            width: 40%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .blog-content {
+            padding: 1.5em;
+            flex: 1;
+        }
+
+        .blog-title {
+            font-size: 1.5em;
+            margin: 0 0 0.5em;
+            color: #3b5998;
+        }
+
+        .blog-description {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .blog-read-more {
+            margin-top: 1em;
+            display: inline-block;
+            color: #3b5998;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .blog-read-more:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #3b5998;
+            color: #fff;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Tech & Innovation</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="tech-trends.html">Tech Trends</a></li>
+                <li><a href="innovations.html">Innovations</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="startups.html">Startups</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="blog-list">
+            <h2>Our Blog</h2>
+
+            <div class="blog-item">
+                <img src="./images/blogpost1.jpg" alt="Blog 1">
+                <div class="blog-content">
+                    <h3 class="blog-title">The Future of AI: What's Next?</h3>
+                    <p class="blog-description">Explore the latest trends and breakthroughs in artificial intelligence and how they're shaping the future of technology and innovation.</p>
+                    <a href="./blogpost-1.html" class="blog-read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="blog-item">
+                <img src="./images/blogpost2.jpg" alt="Blog 2">
+                <div class="blog-content">
+                    <h3 class="blog-title">Top 10 Startups to Watch in 2024</h3>
+                    <p class="blog-description">Get to know the most promising startups that are redefining industries with their innovative ideas and solutions.</p>
+                    <a href="./blogpost-2.html" class="blog-read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="blog-item">
+                <img src="./images/blogpost3.jpg" alt="Blog 3">
+                <div class="blog-content">
+                    <h3 class="blog-title">How 5G is Changing the Tech Landscape</h3>
+                    <p class="blog-description">Discover how 5G technology is transforming industries, enhancing connectivity, and enabling new possibilities for innovation.</p>
+                    <a href="./blogpost-3.html" class="blog-read-more">Read More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tech & Innovation. All Rights Reserved. Designed with passion.</p>
+    </footer>
+</body>
+</html>
